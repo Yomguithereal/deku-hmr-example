@@ -1,0 +1,43 @@
+{
+  "name": "deku-hmr-example",
+  "version": "1.0.0",
+  "description": "Simple example of HMR setup for deku.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yomguithereal/deku-hmr-example.git"
+  },
+  "keywords": [
+    "deku",
+    "hmr",
+    "webpack"
+  ],
+  "contributors": [
+    {
+      "name": "Guillaume Plique",
+      "url": "http://github.com/Yomguithereal"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yomguithereal/deku-hmr-example/issues"
+  },
+  "homepage": "https://github.com/yomguithereal/deku-hmr-example#readme",
+  "dependencies": {
+    "deku": "^2.0.0-rc7",
+    "redux": "^3.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-react-jsx": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "express": "^4.13.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.6.0"
+  }
+}

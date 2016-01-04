@@ -11,6 +11,10 @@ npm start
 
 Then wait for compilation and open `localhost:3000`.
 
+## Pointers
+
+HMR-related things are in the [`main.jsx`](main.jsx) file and in the [`configureStore.js`](configureStore.js) one.
+
 ## Dependencies
 
 ```json
